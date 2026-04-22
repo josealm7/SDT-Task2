@@ -1,5 +1,5 @@
+import java.util.Arrays;
 import java.util.Random;
-
 public class Main {
     public static void main(String[] args) {
         System.out.println("Hello World");
@@ -14,7 +14,6 @@ public class Main {
             System.out.println("table[" + i + "] = " + table[i]);
         }
         
-        // Calculate sum and average
         int sum = 0;
         for (int value : table) {
             sum += value;
@@ -22,5 +21,12 @@ public class Main {
         double average = (double) sum / table.length;
         System.out.println("\nSum: " + sum);
         System.out.println("Average: " + average);
+        
+        // Sort table
+        Arrays.sort(table);
+        System.out.println("\nSorted table:");
+        for (int value : table) {
+            System.out.println(value);
+        }
     }
 }
