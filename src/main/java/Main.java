@@ -1,7 +1,11 @@
 import java.util.Random;
 public class Main {
     public static void main(String[] args) {
+<<<<<<< HEAD
         System.out.println("Hello World FROM MAIN");
+=======
+        System.out.println("Hello World FROM CONFLICT BRANCH!");
+>>>>>>> conflict-branch
         
         // Initialize array with random values
         int[] table = new int[10];
